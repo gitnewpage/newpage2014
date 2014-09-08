@@ -1,0 +1,120 @@
+/*****************NAV**************************/
+#header-nav #nav .nav-primary li:hover{
+    background: rgba(92, 204, 51, 1);
+
+}
+#header-nav #nav .nav-primary a:hover{
+    color : white;
+
+}
+
+/******************FIN NAV************************/
+
+/****************** FOOTER ********************************/
+@media screen and (max-width: 600px){
+    .footer > div {
+        width: 100%;
+        margin-bottom: 50px;
+
+    }
+    .footer .infoNaturista{
+        float: left;
+    }
+    .footer .infoPedidos{
+        float: left;
+    }
+    .footer .infoEmails{
+        float: left;
+    }
+
+    /*configuration infoInstituciones*/
+    .footer .infoInstituciones{
+        float: left;
+    }
+    .footer-container .footer h1{
+        color: green;
+        font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+        text-transform: capitalize;
+    }
+    .footer-container .footer .infoInstituciones img{
+        width: 80%;
+        height: 40%;
+        margin: 0 0 5% 10%;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 1000px){
+    .footer > div {
+        width: 50%;
+        height: 200px;
+        padding: 0 5%  ;
+    }
+    .footer .infoNaturista{
+        float: left;
+        border-right: 1px solid;
+
+    }
+    .footer .infoPedidos{
+        float: left;
+    }
+    .footer .infoEmails{
+        float: left;
+        border-right: 1px solid;
+    }
+
+    /*configuration infoInstituciones*/
+    .footer .infoInstituciones{
+        float: left;
+    }
+    .footer-container .footer h1{
+        color: greenyellow;
+        font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+        text-transform: capitalize;
+    }
+    .footer-container .footer .infoInstituciones img{
+        width: 80%;
+        height: 40%;
+        margin: 0 0 5% 10%;
+    }
+}
+@media screen and (min-width: 1001px){
+    .footer > div {
+        width: 25%;
+        padding: 0 5% ;
+        border-left: 1px solid ;
+        height: 300px;
+    }
+    .footer .infoNaturista{
+        border: none !important;
+        float: left;
+    }
+    .footer .infoPedidos{
+        float: left;
+    }
+    .footer .infoEmails{
+        float: left;
+    }
+
+    /*configuration infoInstituciones*/
+    .footer .infoInstituciones{
+        float: left;
+    }
+    .footer-container .footer h1{
+        color: yellowgreen;
+        font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+        text-transform: capitalize;
+    }
+    .footer-container .footer .infoInstituciones img{
+        width: 80%;
+        height: 40%;
+        margin: 0 0 5% 10%;
+    }
+}
+
+/***************************FIN FOOTER***********************************************************************/
+
+
+/*************** PRODUCTO *************************/
+.producto p {
+    text-align: justify;
+}
+/*********************FIN PRODUCTO******************/
